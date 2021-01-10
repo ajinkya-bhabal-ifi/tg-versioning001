@@ -28,4 +28,5 @@ remote_state {
 
 inputs = {
   location = "Central US"
+  env_name = "dev"
 }

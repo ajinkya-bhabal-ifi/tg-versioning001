@@ -1,6 +1,6 @@
 # Create a Resource Group
 resource "azurerm_resource_group" "rg1" {
-  name     = "Terraform-RG1"
+  name     = "${var.env_name}-Terraform-RG1"
   location = var.location 
 }
 
